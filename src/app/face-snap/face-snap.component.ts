@@ -7,6 +7,4 @@ import { Component } from '@angular/core';
   templateUrl: './face-snap.component.html',
   styleUrl: './face-snap.component.scss'
 })
-export class FaceSnapComponent {
-
-}
+export class FaceSnapComponent {}
