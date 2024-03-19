@@ -15,10 +15,6 @@ export class AppComponent implements OnInit {
 
   faceSnaps!: FaceSnap[];
 
-  mySnap!: FaceSnap;
-  myOtherSnap!: FaceSnap;
-  myLastSnap!: FaceSnap;
-
   ngOnInit(): void {
     this.faceSnaps = [
       new FaceSnap(
@@ -43,7 +39,6 @@ export class AppComponent implements OnInit {
         156
       )
     ];
-
     this.faceSnaps[1].setLocation('à la montagne');
   }
 }
